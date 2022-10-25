@@ -1,0 +1,85 @@
+img {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 25px;
+  }
+  
+  img:hover {
+  
+  }
+  
+  .w-text1 {
+    color: orange;
+    font-size: 2rem;
+  }
+  
+  .w-text2 {
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  .w-text-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .swiper-slide-visible {
+    opacity: 1;
+  }
+  
+  .swiper-wrapper {
+    margin-left: 3rem; 
+    margin-top: 2rem; 
+    margin-bottom: 3rem; 
+  }
+  
+  .swiper-slide.swiper-slide-active {
+    /* background-color: red; */
+    cursor: grab;
+  }
+  
+  .swiper-slide.swiper-slide-next {
+    /* background-color: blue; */
+    cursor: grab;
+  
+  }
+  
+  .swiper-slide {
+    /* background-color: green; */
+    cursor: grab;
+  
+  }
+  
+  .swiper-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 25px;
+  
+  }
+  
+  .swiper-con:hover {
+    transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 15px 30px;
+    cursor:pointer;
+  }
+  
+  .swiper-text {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    
+  }
+  
+  .swiper-link {
+    border: 25px;
+    background-color: transparent;
+  }
+  
+  

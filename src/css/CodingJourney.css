@@ -1,0 +1,237 @@
+.a-journey-element {
+  border: 1px solid orange;
+  border-radius: 30px;
+  /* padding: 1rem; */
+  /* width: 65rem; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 70rem;
+}
+
+
+.a-text-journey {
+  padding: 2rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+
+.a-text-journey {
+  padding: 2rem;
+  background-color: transparent;
+}
+
+.a-heading1 {
+  color: orange;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: -10rem;
+}
+
+.a-heading-div
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -4rem;
+  padding-bottom: -4rem;
+  bottom: -4rem;
+}
+
+.a-top-bar {
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 25px;
+  /* padding: 1rem; */
+}
+
+.a-icon {
+  border-radius: 25px;
+  padding: 0.5rem;
+  background-color: orange;
+  font-size: 30px;
+  color: white;
+}
+
+.a-heading-journey {
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+
+.a-heading-journey2 {
+  /* display: flex; */
+  /* align-self: center; */
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.a-headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+I HATE THIS SO FKN MUCH..... 
+EVEN SOLVING STUPID ERRORS IS MORE FUN THEN THIS
+*/
+
+
+@media screen and (max-width: 1024px) {
+  .a-journey-element {
+      max-width: 45rem;
+  }   
+}
+
+
+/* Iphone 11 Pro */
+@media screen and (max-width: 375px) {
+.a-journey-element {
+    max-width: 7020.5rem;
+}   
+}
+
+/* Iphone 12/13 Pro */
+@media screen and (max-width: 390px) {
+  .a-journey-element {
+      max-width: 7021rem;
+  }   
+}
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+  .a-journey-element {
+      max-width: 7020rem;
+  }   
+}
+
+/* Ipad */
+@media screen and (max-width: 810px) {
+  .a-journey-element {
+      max-width: 7042rem;
+  }   
+}
+
+/* Pixel 5 */
+@media screen and (max-width: 393px) {
+  .a-journey-element {
+      max-width: 7021.5rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 450px) {
+  .a-journey-element {
+      max-width: 7021.5rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 600px) {
+  .a-journey-element {
+      max-width: 7027rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 750px) {
+  .a-journey-element {
+      max-width: 7042rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 700px) {
+.a-journey-element {
+    max-width: 7035rem;
+}   
+}
+
+/* other shit */
+@media screen and (max-width: 585px) {
+  .a-journey-element {
+      max-width: 7030rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 500px) {
+  .a-journey-element {
+      max-width: 7019rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 425px) {
+  .a-journey-element {
+      max-width: 7023rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 370px) {
+  .a-journey-element {
+      max-width: 7023rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 400px) {
+  .a-journey-element {
+      max-width: 7020rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 333px) {
+  .a-journey-element {
+      max-width: 7018rem;
+  }   
+}
+
+
+/* other shit */
+@media screen and (max-width: 1280px) {
+  .a-journey-element {
+      max-width: 50rem;
+  }   
+}
+
+
+/* other shit */
+@media screen and (max-width: 1920px) {
+  .a-journey-element {
+      margin: 4rem;
+      max-width: 105rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 1440px) {
+  .a-journey-element {
+      /* margin: 100rem; */
+      max-width: 100rem;
+  }   
+}
+
+/* other shit */
+@media screen and (max-width: 1366px) {
+.a-journey-element {
+    /* margin: 100rem; */
+    max-width: 100rem;
+}   
+}
+
+
+
+
+

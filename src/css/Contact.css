@@ -1,0 +1,70 @@
+
+.c-text1
+{
+    font-size: 100px;
+}
+
+.c-text2
+{
+    color: orange;
+    font-size: 70px;
+}
+
+.c-left {
+    float: left;
+    margin: 0 0 -30px 80px;
+    width: 40%;
+} 
+
+.c-right {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.c-msg-input {
+    border-radius: 25px;
+    border: 3px orange solid;  
+    margin: 1rem;
+    padding: 0.8rem;
+    color: orange;
+    width: 80%;
+}
+
+
+
+.c-name-input {
+    text-align: center;
+    border: 3px orange solid; 
+    border-radius: 25px;
+    margin: 1rem;
+    padding: 0.8rem;
+    color: orange;
+}
+
+.c-email-input {
+    text-align: center;
+    border: 3px orange solid; 
+    border-radius: 25px;
+
+    margin: 1rem;
+    padding: 0.8rem;
+    color: orange;
+}
+
+.c-name-input::placeholder {
+    text-align: center;
+    font-weight: bold;
+}
+
+.c-email-input::placeholder {
+    text-align: center;
+    font-weight: bold;
+}
+
+.c-msg-input::placeholder {
+    font-weight: bold;
+}

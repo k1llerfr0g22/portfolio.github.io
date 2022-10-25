@@ -1,0 +1,205 @@
+.Intro {
+    padding: 3rem;
+}
+
+.i-text1 {
+    font-size: 50px;
+    color: #000000;
+}
+
+.i-text2 {
+    margin-top: -20px;
+    font-size: 110px;
+    color: #FFAE00;
+    text-shadow: -2px 0px 5px orange, -2px 0px 11px orange;
+}
+
+.i-text3 {
+    font-size: 22px;
+}
+
+
+
+
+.icon {
+    font-size: 15px;
+}
+
+
+.button {
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    box-shadow: orange 0px 3px 15px;
+    transition: all 0.5 ease-in-out;
+    border: solid orange 1px;
+    transition: all 200ms linear;    
+}
+
+.button:hover {
+    /* background: linear-gradient(180deg, rgba(224,177,203,1) 0%, rgba(190,149,196,1) 50%,  rgba(159,134,192,1)  100%);   */
+    /* box-shadow:  2px 2px 4px #b79add,
+    -2px -2px 4px #8772a3; */
+    /* box-shadow:  2px 2px 20px #8772a3,
+    -2px -2px 20px #b79add; */
+    /* transform: scale(1.05);  */
+    /* box-shadow: none; */
+    border: solid orange 1px;
+    background-color: white;
+    color: orange;
+    transform: scale(1.05);
+    transform: translate(0px,-5px);
+}
+
+.button2 {
+    background-color: blue;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 1vh;
+    color: white;
+    box-shadow: blue 0px 3px 15px;
+    /* transition: all 0.5 ease-in-out; */
+    transition: background-color 200ms linear;
+    border: solid blue 1px;
+}
+
+
+.button2:hover {
+    /* background: linear-gradient(180deg, rgba(224,177,203,1) 0%, rgba(190,149,196,1) 50%,  rgba(159,134,192,1)  100%);   */
+    /* box-shadow:  2px 2px 4px #b79add,
+    -2px -2px 4px #8772a3; */
+    /* box-shadow:  2px 2px 20px #8772a3,
+    -2px -2px 20px #b79add; */
+    /* transform: scale(1.05);  */
+    /* box-shadow: none; */
+    border: solid blue 1px;
+    background-color: white;
+    color: blue;
+    transform: scale(1.05);
+    transform: translate(0px,-5px);
+}
+
+.icon {
+    /* display: flex;
+    flex-direction: row; */
+    font-size: 40px;
+    color: orange;
+    /* align-self: center; */
+    vertical-align: middle;
+    padding: 5px;
+    /* border: solid 2px orange; */
+    /* border-radius: 50px; */
+    transition: all 0.2s;
+    text-decoration: none;
+
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon_link {
+    color: orange;
+}
+
+.i-buttons {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.button3 {
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px 15px 15px 0px;
+    color: white;
+    box-shadow: orange 0px 3px 15px;
+    transition: all 0.5 ease-in-out;
+    border: solid orange 1px;
+    transition: all 200ms linear;
+}
+
+.button3:hover {
+    /* background: linear-gradient(180deg, rgba(224,177,203,1) 0%, rgba(190,149,196,1) 50%,  rgba(159,134,192,1)  100%);   */
+    /* box-shadow:  2px 2px 4px #b79add,
+    -2px -2px 4px #8772a3; */
+    /* box-shadow:  2px 2px 20px #8772a3,
+    -2px -2px 20px #b79add; */
+    /* transform: scale(1.05);  */
+    /* box-shadow: none; */
+    border: solid orange 1px;
+    background-color: white;
+    color: orange;
+    transform: scale(1.05);
+    transform: translate(0px,-5px);
+}
+
+/* made this pallete on coolors.co 
+(https://coolors.co/231942-5e548e-9f86c0-be95c4-e0b1cb-edcfdf-faf0f5)*/
+
+.tooltip {
+    text-decoration: none;
+    display:inline-block;
+    position:relative;
+    /* border-bottom:1px dotted #666; */
+    text-align:left;
+}
+
+.tooltip .top {
+    text-decoration: none;
+    min-width: auto; 
+    top:-20px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    padding:10px 20px;
+    color:orange;
+    background-color:#FFFFFF;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    border:1px solid orange;
+    box-shadow:0 1px 8px orange;
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.tooltip:hover .top {
+    visibility:visible; opacity:1;
+}
+
+.tooltip .top .arrow {
+    text-decoration: none;
+    position:absolute;
+    top:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .top .arrow::after {
+    text-decoration: none;
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:#FFFFFF;
+    border:1px solid orange;
+    box-shadow:0 1px 8px orange;
+}

@@ -1,0 +1,47 @@
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    /* padding: 1rem; */
+    margin: 1rem;
+    border-radius: 50px;
+}
+
+.nav-link-section {
+    align-self: center;
+}
+
+.nav-name-section {
+    align-self: center;
+}
+
+.nav-link {
+    color: #FFAE00;
+    text-decoration: none;
+    margin: 1rem;
+    border-radius: 50px;
+    padding: 0.2rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+
+.nav-link:hover {
+    transform: translate(0px,-3px);
+    text-shadow: 0px 0px 7px orange; 
+    /* shadowww */
+    /* background: linear-gradient(180deg, rgba(159,134,192,1) 0%, rgba(190,149,196,1) 50%, rgba(224,177,203,1) 100%);   */
+    /* background-color: 9f86c0; */
+    /* box-shadow: inset 3px 3px 6px #8772a3,
+    inset -3px -3px 6px #b79add;  */
+    
+}
+
+.nav-name {
+    color: #FFAE00;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
